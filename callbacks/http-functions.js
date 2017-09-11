@@ -15,6 +15,6 @@ function getHTML(options, callback) {
       console.log('Response stream complete.');
     });
   });
-  };
+}
 
 module.exports = getHTML;
