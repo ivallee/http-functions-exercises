@@ -1,5 +1,5 @@
 const https = require('https');
-module.exports = getAndPrintHTML;
+
 function getAndPrintHTML () {
 
   const requestOptions = {
@@ -21,4 +21,5 @@ function getAndPrintHTML () {
     });
   });
 }
-console.log(getAndPrintHTML());
+
+module.exports = getAndPrintHTML;
