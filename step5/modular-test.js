@@ -1,6 +1,5 @@
 const getAndPrint = require('./http-functions');
 const getHTML = getAndPrint.getHTML;
-const printHTML = getAndPrint.printHTML;
 
 
 var requestOptions = {
