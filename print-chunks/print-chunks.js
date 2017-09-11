@@ -16,9 +16,10 @@ function getAndPrintHTMLChunks () {
     });
 
     res.on('end', () => {
+      console.log(content)
       console.log('Response stream complete.');
     });
   });
 }
 module.exports = getAndPrintHTMLChunks;
-console.log(getAndPrintHTMLChunks());
+getAndPrintHTMLChunks();

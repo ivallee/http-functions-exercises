@@ -24,4 +24,4 @@ function getAndPrintHTML(options) {
 }
 
 module.exports = getAndPrintHTML;
-console.log(getAndPrintHTML(requestOptions));
+getAndPrintHTML(requestOptions);
