@@ -23,3 +23,4 @@ function getAndPrintHTML () {
 }
 
 module.exports = getAndPrintHTML;
+console.log(getAndPrintHTML());

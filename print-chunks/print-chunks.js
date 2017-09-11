@@ -21,3 +21,4 @@ function getAndPrintHTMLChunks () {
   });
 }
 module.exports = getAndPrintHTMLChunks;
+console.log(getAndPrintHTMLChunks());
